@@ -25,7 +25,7 @@ const Header = () => {
       <div className="header-container">
         <div className="logo">
           <a href="/">
-            <span className="logo-text">OpenGraph</span>
+            <span className="logo-text">OpenGraph<span className="labs">Labs</span></span>
           </a>
         </div>
 
@@ -41,6 +41,7 @@ const Header = () => {
             <li><a href="#technology" onClick={closeMenu}>Technology</a></li>
             <li><a href="#ecosystem" onClick={closeMenu}>Ecosystem</a></li>
             <li><a href="https://github.com/OpenGraphLabs" target="_blank" rel="noopener noreferrer" onClick={closeMenu}>GitHub</a></li>
+            <li><a href="https://x.com/OpenGraph_Labs" target="_blank" rel="noopener noreferrer" onClick={closeMenu}>Twitter</a></li>
           </ul>
         </nav>
       </div>

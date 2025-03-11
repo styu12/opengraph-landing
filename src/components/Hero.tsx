@@ -21,7 +21,7 @@ const Hero = () => {
         </p>
         <div className="cta-buttons">
           <a href="#technology" className="btn btn-primary">Explore Technology</a>
-          <a href="https://docs.opengraph.io" target="_blank" rel="noopener noreferrer" className="btn btn-secondary">Read Docs</a>
+          <a href="https://github.com/OpenGraphLabs" target="_blank" rel="noopener noreferrer" className="btn btn-secondary">Read Docs</a>
         </div>
       </div>
       <div className="hero-visual">
