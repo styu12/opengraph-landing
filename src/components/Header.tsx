@@ -16,6 +16,10 @@ const Header = () => {
     }
   }, [])
 
+  const closeMenu = () => {
+    setIsMenuOpen(false)
+  }
+
   return (
     <header className={`header ${isScrolled ? 'scrolled' : ''}`}>
       <div className="header-container">
@@ -33,11 +37,10 @@ const Header = () => {
 
         <nav className={`nav ${isMenuOpen ? 'open' : ''}`}>
           <ul>
-            <li><a href="#vision">Vision</a></li>
-            <li><a href="#technology">Technology</a></li>
-            <li><a href="#ecosystem">Ecosystem</a></li>
-            <li><a href="https://docs.opengraph.io" target="_blank" rel="noopener noreferrer">Docs</a></li>
-            <li><a href="https://github.com/opengraph" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+            <li><a href="#vision" onClick={closeMenu}>Vision</a></li>
+            <li><a href="#technology" onClick={closeMenu}>Technology</a></li>
+            <li><a href="#ecosystem" onClick={closeMenu}>Ecosystem</a></li>
+            <li><a href="https://github.com/OpenGraphLabs" target="_blank" rel="noopener noreferrer" onClick={closeMenu}>GitHub</a></li>
           </ul>
         </nav>
       </div>
