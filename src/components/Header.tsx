@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import './Header.css'
+import logoWithName from '../assets/logo/logo.png'
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false)
@@ -25,6 +26,7 @@ const Header = () => {
       <div className="header-container">
         <div className="logo">
           <a href="/">
+            <img src={logoWithName} alt="OpenGraph Labs" className="logo-image" />
             <span className="logo-text">OpenGraph<span className="labs">Labs</span></span>
           </a>
         </div>

@@ -16,7 +16,7 @@
 }
 
 .footer-main {
-  max-width: 350px;
+  max-width: 400px;
 }
 
 .footer-logo {
@@ -24,6 +24,13 @@
   font-weight: 700;
   margin-bottom: 1.5rem;
   color: #111827;
+  display: flex;
+  align-items: center;
+}
+
+.footer-logo-image {
+  height: 32px;
+  width: auto;
 }
 
 .footer-tagline {

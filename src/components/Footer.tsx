@@ -1,4 +1,5 @@
 import './Footer.css'
+import logo from '../assets/logo/logo.png'
 
 const Footer = () => {
   const currentYear = new Date().getFullYear()
@@ -7,7 +8,10 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-container">
         <div className="footer-main">
-          <div className="footer-logo">OpenGraph<span className="labs">Labs</span></div>
+          <div className="footer-logo">
+            <img src={logo} alt="OpenGraph Labs" className="footer-logo-image" />
+            <span className="logo-text">OpenGraph<span className="labs">Labs</span></span>
+          </div>
           <p className="footer-tagline">
             Building the infrastructure for AI agents in Web3
           </p>

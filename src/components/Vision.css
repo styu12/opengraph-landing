@@ -30,6 +30,7 @@ h2 {
 .vision-content {
   display: flex;
   gap: 6rem;
+  margin-top: 4rem;
 }
 
 .vision-text {
