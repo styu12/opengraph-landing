@@ -44,6 +44,17 @@ const Header = () => {
             <li><a href="#ecosystem" onClick={closeMenu}>Ecosystem</a></li>
             <li><a href="https://github.com/OpenGraphLabs" target="_blank" rel="noopener noreferrer" onClick={closeMenu}>GitHub</a></li>
             <li><a href="https://x.com/OpenGraph_Labs" target="_blank" rel="noopener noreferrer" onClick={closeMenu}>Twitter</a></li>
+            <li className="launch-app-container">
+              <a 
+                href="https://explorer.opengraphlabs.xyz/" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="launch-app-button"
+                onClick={closeMenu}
+              >
+                Launch App
+              </a>
+            </li>
           </ul>
         </nav>
       </div>
