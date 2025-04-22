@@ -101,8 +101,8 @@ const Ecosystem = () => {
               <h3>Ready to join the ecosystem?</h3>
               <p>Start building with OpenGraph today and be part of the future of decentralized AI.</p>
               <div className="cta-buttons">
-                <a href="https://docs.opengraph.io" className="btn btn-primary" target="_blank" rel="noopener noreferrer">Read the Docs</a>
-                <a href="https://github.com/opengraph" className="btn btn-secondary" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="https://github.com/OpenGraphLabs" className="btn btn-primary" target="_blank" rel="noopener noreferrer">Read the Docs</a>
+                <a href="https://github.com/OpenGraphLabs" className="btn btn-secondary" target="_blank" rel="noopener noreferrer">GitHub</a>
               </div>
             </div>
           </div>
